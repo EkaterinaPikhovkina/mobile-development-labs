@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/calculatorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputHG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="водень"
+            android:inputType="numberDecimal"
+            android:text="11.20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputCG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="вуглець"
+            android:inputType="numberDecimal"
+            android:text="85.50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputSG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="сірка"
+            android:inputType="numberDecimal"
+            android:text="2.50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputOG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="кисень"
+            android:inputType="numberDecimal"
+            android:text="0.80" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputVG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="ванадій"
+            android:inputType="numberDecimal"
+            android:text="333.3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="мг/кг"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputWG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="волога"
+            android:inputType="numberDecimal"
+            android:text="2.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aᴳ = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputAG"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="зола"
+            android:inputType="numberDecimal"
+            android:text="0.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qidaf = "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputQidaf"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="теплота"
+            android:inputType="numberDecimal"
+            android:text="40.40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="МДж/кг"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_text" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+</LinearLayout>

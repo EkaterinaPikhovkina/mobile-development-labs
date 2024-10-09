@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="result_template">
+    Склад робочої маси мазуту: Hᴾ=%1$s%%; Cᴾ=%2$s%%; Sᴾ=%3$s%%; Oᴾ=%4$s%%; Vᴾ=%5$s мг/кг; Aᴾ=%6$s%%;\n
+    Нижча теплота згоряння мазуту на робочу масу: %7$s МДж/кг.
+    </string>
+    <string name="percent">%</string>
+    <string name="button_text">Розрахувати</string>
+</resources>
